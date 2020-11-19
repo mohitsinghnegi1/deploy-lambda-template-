@@ -1,0 +1,22 @@
+{
+  "name": "aws_lambda_serverless",
+  "version": "0.0.0",
+  "description": "serveress-lambda-demo",
+  "main": "handler.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "serverless"
+  ],
+  "author": "Mohit Singh Negi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.64",
+    "serverless-offline": "^6.8.0",
+    "serverless-plugin-typescript": "^1.1.9"
+  },
+  "dependencies": {
+    "typescript": "^4.0.5"
+  }
+}

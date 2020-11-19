@@ -1,0 +1,16 @@
+
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["dom", "es6"],
+    "target": "es6",
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "outDir": "./",
+    "rootDir": "./",
+    "pretty": true,
+    "skipLibCheck": true,
+  },
+  "exclude": [ "node_modules", "build", "webpack" ],
+  "types": [ "typePatches" ]
+}
